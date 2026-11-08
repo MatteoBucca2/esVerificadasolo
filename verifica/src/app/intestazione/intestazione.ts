@@ -6,4 +6,7 @@ import { Component } from '@angular/core';
   styleUrl: './intestazione.css',
   templateUrl: './intestazione.html',
 })
-export class Intestazione {}
+export class Intestazione {
+  scuola = 'IIS GALVANI'
+  data = 'sabato 12 dicembre dalle 9:00 alle 13:00'
+}

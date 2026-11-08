@@ -7,4 +7,6 @@ import { Biblioteca } from '../biblioteca/biblioteca';
   styleUrl: './primo-piano.css',
   templateUrl: './primo-piano.html',
 })
-export class PrimoPiano {}
+export class PrimoPiano {
+  nome = 'primo piano'
+}

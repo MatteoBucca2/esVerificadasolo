@@ -7,4 +7,6 @@ import { Bar } from '../bar/bar';
   styleUrl: './piano-terra.css',
   templateUrl: './piano-terra.html',
 })
-export class PianoTerra {}
+export class PianoTerra {
+  nome = 'piano terra'
+}
