@@ -1,8 +1,9 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
-
+import { PianoTerra } from './piano-terra/piano-terra';
+import { PrimoPiano } from './primo-piano/primo-piano';
+import { Intestazione } from './intestazione/intestazione';
 @Component({
-  imports: [RouterOutlet],
+  imports: [PianoTerra, PrimoPiano, Intestazione],
   selector: 'app-root',
   styleUrl: './app.css',
   templateUrl: './app.html',
